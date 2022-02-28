@@ -64,6 +64,8 @@ const deleteTask = async (id) => {
   })
 
   setTasks(tasks.filter((task) => task.id !== id))
+
+
 }
 
 // Toggle reminder
